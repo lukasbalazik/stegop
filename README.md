@@ -1,6 +1,6 @@
 # stegop
 
-stegop is python tool for creating steganographic patterns in data so we can hide our message. stegop is more of the obfuscation then steganography itself, becouse we are not editing file we only create pattern which define our data.
+stegop is python tool for creating steganographic patterns in data so we can hide our message. stegop is more of the obfuscation then steganography itself, because we are not editing file, we only create pattern which define our data.
 
 ## Instalation
 
