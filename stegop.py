@@ -95,7 +95,7 @@ stegop.generate_map()
 
 if args.encode:
   ret = stegop.encode(args.input)
-  print("\nEncoded data:")
+  print("\nEncoded pattern:")
   print(ret)
 
 if args.generate:
