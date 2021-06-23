@@ -40,7 +40,7 @@ For example if we want to upload some sort of javascript and we dont want to sho
 ```bash
 $ ./stegop.py -f http://localhost -i "alert('Hello world')" -g -e
 
-Encoded data:
+Encoded pattern:
 eJxFjMkNADAIwxbKh0Bh/82q0IOPBciYBXOwECky4QsWIqOHnNWf8/3D7BejNJl9OZ0px+2ItQFfjBbt
 
 Javascript payload:
