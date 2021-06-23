@@ -22,13 +22,13 @@ $ ./stegop.py -h
 usage: stegop.py [-h] [--minchar MINCHAR] [--maxchar MAXCHAR] [-g] [-e] [-d] -f PATH -i INPUT
 
 optional arguments:
-  -h, --help            			  show this help message and exit
-  --minchar MINCHAR      Lower limit for charset default 97
-  --maxchar MAXCHAR     Upper limit for charset defualt 123
+  -h, --help              Show this help message and exit
+  --minchar MINCHAR       Lower limit for charset default 97
+  --maxchar MAXCHAR       Upper limit for charset defualt 123
   -g, --generate				  Generate js injector
-  -e, --encode						Encode Data
-  -d, --decode						Decode Data
-  -f PATH, --file PATH			Path to file or link
+  -e, --encode					  Encode Data
+  -d, --decode					  Decode Data
+  -f PATH, --file PATH	  Path to file or link
   -i INPUT, --input INPUT	Input Data
 
 ```
