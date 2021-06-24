@@ -66,3 +66,5 @@ When we enter the site the code will be decoded and executed.
 For decompression we are using pako.js so we need to import that.
 
 Be carefull when encoding data, when you plan to deploy it as javascript you have to check allow-origin header (if its not allowed for everything, use url only from that domain for example index file)
+
+If somebody open developer window in browser and type "data" in console, it will print our javascript, so its recommended to obfuscate our javascript an load it only when we want execute our function
