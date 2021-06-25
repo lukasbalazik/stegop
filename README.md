@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 ## How it works?
 Flow is simple, first you have to define path to file or link which will serve as our pattern making, then you define data you want to encode.
 
-At very first step, the charset is created, its just range of ascii characters which will purpose as table of used characters from file. Then stegop create map which is created from charset and position of character in the file, this map is then used for replacing hexadecimal format of data to positions of charset characters, this is how our pattern is made. Then we gzip our pattern so it will take less space and encoded it in base64.
+At very first step, the charset is created, its just range of ascii characters which will purpose as table of used characters from file. Then stegop create map which is created from HEX charset and position of character in the file, this map is then used for replacing hexadecimal format of data to positions of our map, this is how our pattern is made. Then we gzip our pattern so it will take less space and encoded it in base64.
 
 ## Usage
 
